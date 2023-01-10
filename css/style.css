@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #0077b6;
+}
+
+.container{
+    width: 550px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.container .skill{
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+
+.container .skill h3{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.container .skill h4{
+    float: right;
+}
+
+.container .skill .skill-bar{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    border-radius: 15px;
+    background: #48cae4;
+}
+
+.container .skill .fill-bar{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    height: 17px;
+    border-radius: 15px;
+    background: #0077b6;
+}
+
+.container .skill .html{
+    animation: html 2s;
+    width: 95%;
+}
+
+.container .skill .css{
+    animation: css 2s;
+    width: 85%;
+}
+
+.container .skill .javascript{
+    animation: javascript 2s;
+    width: 70%;
+}
+
+.container .skill .php{
+    animation: php 2s;
+    width: 85%;
+}
+
+.container .skill .react{
+    animation: react 2s;
+    width: 65%;
+}
+
+@keyframes html{
+    from{
+        width: 0;
+    }
+    to{
+        width: 95%;
+    }
+}
+
+@keyframes css{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+
+@keyframes javascript{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+@keyframes php{
+    from{
+        width: 0;
+    }
+    to{
+        width: 85%;
+    }
+}
+
+@keyframes react{
+    from{
+        width: 0;
+    }
+    to{
+        width: 65%;
+    }
+}
+
+               /* Md Faisal Mahamud */
